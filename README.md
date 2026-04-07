@@ -1,16 +1,144 @@
-# React + Vite
+# 🚗 Porsche-Inspired React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, modern, and fully responsive React website inspired by the design and user experience of the official Porsche website.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* 🎨 **Light & Dark Theme**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * Fully functional theme toggle
+  * Persistent theme using localStorage
+  * Smooth transitions between modes
 
-## Expanding the ESLint configuration
+* 🖼️ **High-Quality Visual Design**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * Fullscreen hero section with cinematic imagery
+  * Luxury-focused UI with minimal layout
+  * Responsive image handling
+
+* 🚘 **Car Models Showcase**
+
+  * Interactive cards with hover animations
+  * Clean presentation of different models
+
+* 🎬 **Smooth Animations**
+
+  * Powered by Framer Motion
+  * Scroll-based animations
+  * Elegant transitions
+
+* 📱 **Fully Responsive**
+
+  * Optimized for mobile, tablet, and desktop
+
+* ⚡ **Performance Optimized**
+
+  * Lazy loading images
+  * Clean and scalable component structure
+
+---
+
+## 🛠️ Tech Stack
+
+* **React** – Frontend library
+* **Tailwind CSS** – Styling
+* **Framer Motion** – Animations
+* **JavaScript (ES6+)**
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── CarCard.jsx
+│   ├── Footer.jsx
+│
+│── sections/
+│   ├── Models.jsx
+│   ├── Discover.jsx
+│   ├── Features.jsx
+│
+│── context/
+│   ├── ThemeContext.jsx
+│
+│── App.jsx
+│── main.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/porsche-react.git
+cd porsche-react
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌗 Theme Functionality
+
+* Toggle between light and dark mode using the UI switch
+* Theme preference is saved in **localStorage**
+* Applied globally using React Context + Tailwind classes
+
+---
+
+## 🖼️ Image Guidelines
+
+* Use high-resolution automotive images
+* Prefer `.webp` or optimized `.jpg`
+* Add overlays for readability in hero sections
+* Ensure responsiveness using Tailwind utilities
+
+---
+
+## 🎯 Design Goals
+
+* Minimal and elegant interface
+* Focus on visual storytelling
+* Smooth, premium interactions
+* Clean and scalable codebase
+
+---
+
+## ⚠️ Disclaimer
+
+This project is **for educational purposes only**.
+It is inspired by the design of the Porsche AG website and is not affiliated with or endorsed by Porsche.
+
+---
+
+## 🙌 Acknowledgements
+
+* Design inspiration: Porsche AG
+* Animation library: Framer Motion
+* Styling: Tailwind CSS
+
+---
+
+## 📬 Contact
+
+Feel free to reach out for feedback or collaboration!
+
+---
