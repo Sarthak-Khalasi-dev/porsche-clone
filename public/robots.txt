@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://porsche-clone01.netlify.app/sitemap.xml
